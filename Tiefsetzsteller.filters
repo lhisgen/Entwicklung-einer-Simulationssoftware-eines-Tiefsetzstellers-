@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Views">
+      <UniqueIdentifier>{97a89baf-2c22-455f-9e6d-77582c3281eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Models">
+      <UniqueIdentifier>{cf3f3784-27e4-4106-aa72-e8f7ce6031a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Bauelemente">
+      <UniqueIdentifier>{4e7d7e54-d18e-4a6d-bd6c-4de7e3b949df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Header">
+      <UniqueIdentifier>{413e617a-5369-4fcc-8a86-b0dd5effd321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Controller">
+      <UniqueIdentifier>{1a50979c-4666-40bb-84c0-4531d3fc4315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models">
+      <UniqueIdentifier>{8a103abb-666b-43b4-ad75-12cb8027ef2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Views">
+      <UniqueIdentifier>{fd2bff89-8235-4f48-b28a-cbd58649336a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bauelemente">
+      <UniqueIdentifier>{87e9cfc4-f310-4f6a-ba69-20e772a9bac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controller">
+      <UniqueIdentifier>{6dc2a8b0-0c6c-46fb-8b1a-959c5a255317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pre-compiled Header">
+      <UniqueIdentifier>{fea61d5c-33b3-4d60-b530-10dc196c3622}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Buck_Converter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Buck_ConverterDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractController.h">
+      <Filter>Header Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractModel.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractView.h">
+      <Filter>Header Files\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="AmplitudenAnzeige.h">
+      <Filter>Header Files\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="CBauelement.h">
+      <Filter>Header Files\Bauelemente</Filter>
+    </ClInclude>
+    <ClInclude Include="CDiode.h">
+      <Filter>Header Files\Bauelemente</Filter>
+    </ClInclude>
+    <ClInclude Include="CDraht.h">
+      <Filter>Header Files\Bauelemente</Filter>
+    </ClInclude>
+    <ClInclude Include="CKondensator.h">
+      <Filter>Header Files\Bauelemente</Filter>
+    </ClInclude>
+    <ClInclude Include="const.h">
+      <Filter>Header Files\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllableObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpule.h">
+      <Filter>Header Files\Bauelemente</Filter>
+    </ClInclude>
+    <ClInclude Include="CtrHoriz.h">
+      <Filter>Header Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="CtrVertikal.h">
+      <Filter>Header Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="CWiderstand.h">
+      <Filter>Header Files\Bauelemente</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FrequenzAnzeige.h">
+      <Filter>Header Files\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>Header Files\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Pre-compiled Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CSchaltplan.h">
+      <Filter>Header Files\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="Koordinatensystem.h">
+      <Filter>Header Files\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="CCapacitorController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCoilController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Buck_Converter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Buck_ConverterDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ControllableObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractController.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractModel.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractView.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="AmplitudenAnzeige.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="CBauelement.cpp">
+      <Filter>Source Files\Bauelemente</Filter>
+    </ClCompile>
+    <ClCompile Include="CDiode.cpp">
+      <Filter>Source Files\Bauelemente</Filter>
+    </ClCompile>
+    <ClCompile Include="CDraht.cpp">
+      <Filter>Source Files\Bauelemente</Filter>
+    </ClCompile>
+    <ClCompile Include="CKondensator.cpp">
+      <Filter>Source Files\Bauelemente</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpule.cpp">
+      <Filter>Source Files\Bauelemente</Filter>
+    </ClCompile>
+    <ClCompile Include="CtrHoriz.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="CtrVertikal.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="CWiderstand.cpp">
+      <Filter>Source Files\Bauelemente</Filter>
+    </ClCompile>
+    <ClCompile Include="FrequenzAnzeige.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Pre-compiled Header</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Pre-compiled Header</Filter>
+    </ClCompile>
+    <ClCompile Include="CSchaltplan.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="Koordinatensystem.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="CCapacitorController.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="CCoilController.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tiefsetzsteller.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Tiefsetzsteller.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Tiefsetzsteller.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\THM_Logo_FB02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

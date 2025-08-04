@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AbstractController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractView.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CCircuit.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+    <ClCompile Include="CCoilController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="CCapacitorController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Buck_ConverterDlg.cpp">
+      <Filter>ProjectFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Header</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Header</Filter>
+    </ClCompile>
+    <ClCompile Include="CData.cpp">
+      <Filter>Others</Filter>
+    </ClCompile>
+    <ClCompile Include="ControllableObject.cpp">
+      <Filter>Others</Filter>
+    </ClCompile>
+    <ClCompile Include="CResistorController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="CSwitch.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+    <ClCompile Include="CVoltageController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="CBuckConverterModel_Dynamic.cpp">
+      <Filter>Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="CBuckConverterModel_SteadyState.cpp">
+      <Filter>Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="CBuckConverterModelAbstract.cpp">
+      <Filter>Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="CRunge_Kutta.cpp">
+      <Filter>Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="CSolver.cpp">
+      <Filter>Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="CFrequencyController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="CDutyCycleController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="CSolverAlgorithm.cpp">
+      <Filter>Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Buck_Converter.cpp">
+      <Filter>ProjectFiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="AbstractController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractView.h">
+      <Filter>Views</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>Views</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="CCircuit.h">
+      <Filter>Views</Filter>
+    </ClInclude>
+    <ClInclude Include="CCoilController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="CCapacitorController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Buck_ConverterDlg.h">
+      <Filter>ProjectFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="const.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CData.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllableObject.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="CResistorController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="CSwitch.h">
+      <Filter>Views</Filter>
+    </ClInclude>
+    <ClInclude Include="CVoltageController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="CBuckConverterModel_Dynamic.h">
+      <Filter>Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="CBuckConverterModel_SteadyState.h">
+      <Filter>Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="CBuckConverterModelAbstract.h">
+      <Filter>Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="CRunge_Kutta.h">
+      <Filter>Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="CSolver.h">
+      <Filter>Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="CFrequencyController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="CDutyCycleController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="CSolverAlgorithm.h">
+      <Filter>Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="Buck_Converter.h">
+      <Filter>ProjectFiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tiefsetzsteller.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\THM_Logo_FB02.png" />
+    <Image Include="res\Tiefsetzsteller.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Tiefsetzsteller.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{179971cd-7dee-431a-b405-3bd04136e649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Views">
+      <UniqueIdentifier>{3be97d97-8875-4bf0-9c6f-2cb93b5ddda2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{4edbd573-084c-430e-a0c2-de860e3bdb4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProjectFiles">
+      <UniqueIdentifier>{5c827ca9-9bae-4afd-9a8c-28b64b6817c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Others">
+      <UniqueIdentifier>{19b67425-0951-4e67-af4e-6c44652500fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{fd85e6c8-b7d7-4a46-9d44-679412d8da29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Simulation">
+      <UniqueIdentifier>{d9c87566-6380-401f-9096-49bc784515dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
